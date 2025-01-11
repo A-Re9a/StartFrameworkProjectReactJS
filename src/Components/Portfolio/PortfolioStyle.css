@@ -31,7 +31,6 @@
 }
 .portfolioStar .fa-solid:before{
     color: #2c3e50;
-
 }
 img:hover{
 cursor: pointer;
@@ -96,5 +95,14 @@ cursor: pointer;
     #imgCard{
         display: none !important;
         
+    }
+    #Portfolio h2{
+        font-size: 2rem !important;
+    }
+    .portfolioStar::after{
+        width: 50px;
+    }
+    .portfolioStar::before{
+        width: 50px;
     }
 }
