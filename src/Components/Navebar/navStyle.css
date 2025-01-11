@@ -1,0 +1,35 @@
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 20px 0px ;
+}
+nav {
+    background-color: #2c3e50 ;
+
+    a{
+        color: #fff !important;
+        font-family: Montserrat, sans-serif;
+    }
+    .navbar-brand{
+    font-size: 25.6px !important;
+    } 
+
+    .active{
+        background-color: #1abc9c ;
+        border: transparent solid #1abc9c ;
+        border-radius: 15px ;
+        transition: all 0.5s ease-in-out;
+    }
+    .active:hover{
+        background-color: #147d68 ;
+    }
+}
+
+.navbar-toggler{
+    background-color: #1abc9c !important;
+}
+.scrolled{
+    padding: 5px 0px !important;
+    transition: all 0.5s ease-in-out;
+}

@@ -1,0 +1,33 @@
+header{
+    background-color: #1abc9c;
+    height: 40rem;
+    padding-block: 100px;
+    h1{
+        
+        font-family: Montserrat, sans-serif;
+        font-size: 64px;
+    }
+    .star{
+        position: relative;
+    }
+    .star::after{
+        content: '';
+        position: absolute;
+        height: 4px;
+        width: 120px;
+        border-radius: 2px;
+        background-color: white;
+        top:50%;
+        right: 100%;
+        }
+        .star::before{
+            content: '';
+            position: absolute;
+            height: 4px;
+            width: 120px;
+            border-radius: 2px;
+            background-color: white;
+            top:50%;
+            left: 100%;
+            }
+}

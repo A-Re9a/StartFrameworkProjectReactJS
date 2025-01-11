@@ -1,0 +1,39 @@
+#About{
+    background-color: #1abc9c;
+}
+
+#About h2 {
+    color: #fff;
+    font-size: 3rem ;
+    font-weight: bolder ;
+    margin-bottom: 20px ;
+    text-align:center;
+    text-transform: uppercase;
+}
+.aboutStar{
+    position: relative;
+}
+.aboutStar::after{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 120px;
+    border-radius: 2px;
+    background-color: #fff;
+    top:50%;
+    right:52%;
+}
+.aboutStar::before{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 120px;
+    border-radius: 2px;
+    background-color: #fff;
+    top:50%;
+    left:52%;
+}
+.aboutStar .fa-solid:before{
+    color: #fff;
+
+}
